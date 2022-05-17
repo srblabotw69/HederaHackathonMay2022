@@ -171,10 +171,10 @@ public class FileHandling {
 		/////////////////////////////////////////////////////
 
 		// The ID of your GCP project
-		String projectId = "***REMOVED***";
+		String projectId = "";
 
 		// The ID of your GCS bucket
-		String bucketName = "hederabucket";
+		String bucketName = "";
 
 		// The ID of your GCS object
 		String objectName = fileToUpload.getName();

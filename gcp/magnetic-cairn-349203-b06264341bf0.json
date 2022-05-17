@@ -2,7 +2,7 @@
   "type": "service_account",
   "project_id": "***REMOVED***",
   "private_key_id": "***REMOVED***",
-  "private_key": "-----BEGIN PRIVATE KEY-----\***REMOVED***\n-----END PRIVATE KEY-----\n",
+  "private_key": "-----BEGIN PRIVATE KEY-----***REMOVED***-----END PRIVATE KEY-----\n",
   "client_email": "hederaserviceaccount@***REMOVED***.iam.gserviceaccount.com",
   "client_id": "***REMOVED***",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
