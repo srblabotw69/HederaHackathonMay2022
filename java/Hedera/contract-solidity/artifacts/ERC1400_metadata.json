@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "name",
+						"type": "bytes32"
+					}
+				],
+				"name": "getDocument",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "name",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "uri",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "documentHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "setDocument",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"eclipse-workspace/Hedera/lib/src/main/java/Hedera/contract-solidity/ERC1400.sol": "ERC1400"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"eclipse-workspace/Hedera/lib/src/main/java/Hedera/contract-solidity/ERC1400.sol": {
+			"keccak256": "0x5345c1ce61c289a64d58d47f6b316bad99becd2b51e9b8f39e4906fcacc13ca2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1aafb6f7770f13ce9087457b93c5163912e79aa478baa04b914082108a116f93",
+				"dweb:/ipfs/QmUzJPKzpg6i2aWYcSG3C6VnBzSfDm9JBYKQCAdB7r6orB"
+			]
+		},
+		"eclipse-workspace/Hedera/lib/src/main/java/Hedera/contract-solidity/IERC1400.sol": {
+			"keccak256": "0xfe76e6ec710fc960d2c859cfc3db4b2aa4f4ec32c20d9f4c9b6a850e0ef64452",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://33017320286929fd0e81e793874c16f2eaebb69f273e99758f1f716668429600",
+				"dweb:/ipfs/QmYnotuRZN1ypLvgaEhEynQa3Jh9mufgq1XpXXCiy4HUFR"
+			]
+		},
+		"eclipse-workspace/Hedera/lib/src/main/java/Hedera/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol": {
+			"keccak256": "0x17b6b6189de509d602776fab3d0924c576ec365e53e712d16bdc57b1538edadb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d8b3d9f1484e8ae7443a0a5e46f2faef362813f4fd6e0660d4b64725a16a990",
+				"dweb:/ipfs/QmQVeGDmxWy5A4PfKKpNrrEjFTgwygS7xCTtySSMC7R4M8"
+			]
+		},
+		"eclipse-workspace/Hedera/lib/src/main/java/Hedera/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x5736fdfd3c69664af01fbf8734410bb4133672fe0abfafa39574c02d63227c6c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3d4c09d6c75c23a8e253ab3ab50c4243d21efc52acc808ae5b32d92c5032bba1",
+				"dweb:/ipfs/Qmf8FAHdTm3oK9G8zdFm8yMSUQ13hSaENTFpxfM34dPwKA"
+			]
+		},
+		"eclipse-workspace/Hedera/lib/src/main/java/Hedera/openzeppelin-solidity/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+			"keccak256": "0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd",
+				"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8"
+			]
+		},
+		"eclipse-workspace/Hedera/lib/src/main/java/Hedera/openzeppelin-solidity/contracts/utils/Context.sol": {
+			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+			]
+		}
+	},
+	"version": 1
+}
